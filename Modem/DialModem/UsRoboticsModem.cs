@@ -2,7 +2,7 @@
 
 namespace Modem.DialModem
 {
-    public class UsRoboticsModem : IModem
+    public class UsRoboticsModem : IModem, IDialer
     {
         public void Dial(char[] number)
         {

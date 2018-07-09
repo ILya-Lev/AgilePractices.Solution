@@ -2,10 +2,14 @@
 
 namespace Modem
 {
-    public interface IModem
+    public interface IDialer
     {
         void Dial(char[] number);
         void Hangup();
+    }
+
+    public interface IModem
+    {
         void Send(Stream data);
         Stream Receive();
     }
