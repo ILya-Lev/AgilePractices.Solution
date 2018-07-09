@@ -3,12 +3,10 @@
     public class ModemClient
     {
         private readonly IModem _modem;
-        private readonly IDialer _dialer;
 
-        public ModemClient(IModem modem, IDialer dialer)
+        public ModemClient(IModem modem)
         {
             _modem = modem;
-            _dialer = dialer;
         }
     }
 }

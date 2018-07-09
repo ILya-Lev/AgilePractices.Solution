@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Modem.DedicatedModem
 {
-    public class DedModem : IModem
+    public class DedModem
     {
         public void Send(Stream data)
         {

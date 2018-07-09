@@ -1,10 +1,12 @@
-﻿namespace Modem.Clients
+﻿using Modem.DedicatedModem;
+
+namespace Modem.Clients
 {
     public class DedicatedUser
     {
-        private readonly IModem _modem;
+        private readonly DedModem _modem;
 
-        public DedicatedUser(IModem modem)
+        public DedicatedUser(DedModem modem)
         {
             _modem = modem;
         }
