@@ -3,7 +3,49 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shape.ConsoleApp", "Shape.ConsoleApp\Shape.ConsoleApp.csproj", "{6C23653B-D379-425F-A64E-3211AA7B52DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shape.Contracts", "Shape.Contracts\Shape.Contracts.csproj", "{C52955AE-8C4C-43B1-A60F-68AD6888D4C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shape.Factory", "Shape.Factory\Shape.Factory.csproj", "{5E4EAB17-24E2-49EF-95F0-6E516FF2B3C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shape.Circle", "Shape.Circle\Shape.Circle.csproj", "{694F0B13-208D-4153-ACA6-6B15CB9EFD82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shape.Square", "Shape.Square\Shape.Square.csproj", "{80EBDA3F-9577-4DE9-AE74-D87295BCB612}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modem", "Modem\Modem.csproj", "{773CCA7B-8B41-4C03-AC73-51A9D2D74396}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C23653B-D379-425F-A64E-3211AA7B52DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C23653B-D379-425F-A64E-3211AA7B52DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C23653B-D379-425F-A64E-3211AA7B52DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C23653B-D379-425F-A64E-3211AA7B52DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C52955AE-8C4C-43B1-A60F-68AD6888D4C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C52955AE-8C4C-43B1-A60F-68AD6888D4C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C52955AE-8C4C-43B1-A60F-68AD6888D4C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C52955AE-8C4C-43B1-A60F-68AD6888D4C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E4EAB17-24E2-49EF-95F0-6E516FF2B3C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E4EAB17-24E2-49EF-95F0-6E516FF2B3C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E4EAB17-24E2-49EF-95F0-6E516FF2B3C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E4EAB17-24E2-49EF-95F0-6E516FF2B3C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{694F0B13-208D-4153-ACA6-6B15CB9EFD82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{694F0B13-208D-4153-ACA6-6B15CB9EFD82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{694F0B13-208D-4153-ACA6-6B15CB9EFD82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{694F0B13-208D-4153-ACA6-6B15CB9EFD82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80EBDA3F-9577-4DE9-AE74-D87295BCB612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80EBDA3F-9577-4DE9-AE74-D87295BCB612}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80EBDA3F-9577-4DE9-AE74-D87295BCB612}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80EBDA3F-9577-4DE9-AE74-D87295BCB612}.Release|Any CPU.Build.0 = Release|Any CPU
+		{773CCA7B-8B41-4C03-AC73-51A9D2D74396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{773CCA7B-8B41-4C03-AC73-51A9D2D74396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{773CCA7B-8B41-4C03-AC73-51A9D2D74396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{773CCA7B-8B41-4C03-AC73-51A9D2D74396}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
