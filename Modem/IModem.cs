@@ -9,4 +9,6 @@ namespace Modem
         void Send(Stream data);
         Stream Receive();
     }
+
+    public interface IModemImplementation : IModem { }
 }
