@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shape.Circle", "Shape.Circl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shape.Square", "Shape.Square\Shape.Square.csproj", "{80EBDA3F-9577-4DE9-AE74-D87295BCB612}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modem", "Modem\Modem.csproj", "{773CCA7B-8B41-4C03-AC73-51A9D2D74396}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modem", "Modem\Modem.csproj", "{773CCA7B-8B41-4C03-AC73-51A9D2D74396}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShop", "EShop\EShop.csproj", "{EE97BA66-668A-4A64-B689-CF548AD5CCF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EShop.Tests", "EShop.Tests\EShop.Tests.csproj", "{004B7A2D-4F88-49B1-AA0A-43BDF92FF9A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{773CCA7B-8B41-4C03-AC73-51A9D2D74396}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{773CCA7B-8B41-4C03-AC73-51A9D2D74396}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{773CCA7B-8B41-4C03-AC73-51A9D2D74396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE97BA66-668A-4A64-B689-CF548AD5CCF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE97BA66-668A-4A64-B689-CF548AD5CCF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE97BA66-668A-4A64-B689-CF548AD5CCF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE97BA66-668A-4A64-B689-CF548AD5CCF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{004B7A2D-4F88-49B1-AA0A-43BDF92FF9A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{004B7A2D-4F88-49B1-AA0A-43BDF92FF9A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{004B7A2D-4F88-49B1-AA0A-43BDF92FF9A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{004B7A2D-4F88-49B1-AA0A-43BDF92FF9A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
